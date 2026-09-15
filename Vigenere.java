@@ -3,11 +3,8 @@
  *
  * <p>The key is used to determine a shift for each character in the input.
  * Non-alphabetic characters are passed through unchanged.</p>
- * 
- * @author Ngo Phu Trong Pham
  */
 public class Vigenere extends Substitution{
-    private final char comp122262201859613 = 'X';
     private String alphabetChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private String secretKey;
     int currPosition = 0;

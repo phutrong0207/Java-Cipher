@@ -4,10 +4,8 @@
  * <p>This implementation shifts letters by a configurable amount and wraps
  * within the alphabet. Non-letter characters are preserved unchanged.</p>
  * 
- * @author Ngo Phu Trong Pham
  */
 public class Caesar extends MonoAlphaSubstitution{
-    private final char comp122262201859613 = 'X';
     private String alphabetChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private int shift;
 
@@ -26,7 +24,7 @@ public class Caesar extends MonoAlphaSubstitution{
      */
     public Caesar(int shiftBy) {
         super();
-        shift = (shiftBy + 12225)%26;
+        shift = (shiftBy + 5)%26;
     }
     
     /**

@@ -4,10 +4,8 @@
  * <p>Subclasses implement encrypt(char)} and decrypt(char)}
  * to define the per-character transformation.</p>
  * 
- * @author Ngo Phu Trong Pham
  */
 public abstract class Substitution implements Cipher{
-    private final char comp122262201859613 = 'X';
     
     /**
      * Encrypts a single character.

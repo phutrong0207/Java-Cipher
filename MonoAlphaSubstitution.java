@@ -5,10 +5,8 @@
  * plaintext characters and the following odd indices are the corresponding
  * ciphertext characters.</p>
  * 
- * @author Ngo Phu Trong Pham
  */
 public class MonoAlphaSubstitution extends Substitution{
-    private final char comp122262201859613 = 'X';
 
     private String translationTable;
 
